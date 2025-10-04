@@ -3,13 +3,28 @@
  padding: 0;
  box-sizing: border-box;
 }
+:root{
+ /* Primary Colors */
+ --clr-blue100: hsl(225, 100%, 94%);
+ --clr-blue700: hsl(245, 75%, 52%);
+ 
+  /* Neutral Colors */
+  --clr-blue50: hsl(225, 100%, 98%);
+  --clr-gray600: hsl(224, 23%, 55%);
+  --clr-blue950: hsl(223, 47%, 23%);
+  
+  /* Other Variables */
+  --ff-primary: 'Red Hat Display', sans-serif;
+  --fw-500: 600;
+  --fw-700: 700;
+  --fw-900: 900;
+}
 html{
  font-size: 16px;
 }
-
-
-
-
+body{
+ font-family: var(--ff-primary);
+}
 
 
 
