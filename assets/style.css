@@ -24,9 +24,77 @@ html{
 }
 body{
  font-family: var(--ff-primary);
+ background-color: var(--clr-blue100);
+ color: var(--clr-blue950);
+ min-height: 100vh;
 }
-
-
+.flex-child{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.card{
+ background-color: var(--clr-blue50);
+ width: 80%;
+ max-width: 320px;
+ border-radius: 15px;
+}
+img{
+ width: 100%;
+ border-top-left-radius: 15px;
+ border-top-right-radius: 15px;
+}
+.card-text{
+ padding: 1.4rem 1rem;
+ text-align: center;
+}
+h1{
+ font-size: 1.9rem;
+ font-weight: var(--fw-900);
+}
+p{
+ color: var(--clr-gray600);
+ margin-top: 12px;
+}
+.plan{
+ margin-top: 1rem;
+ margin-bottom: 1.5rem;
+ padding: 8px 10px;
+ background-color: hsl(223, 47%, 96%);
+ border-radius: 12px;
+}
+.flex{
+ display: flex;
+ align-items: center;
+ gap: 12px;
+}
+.annual div img{
+ width: 40px;
+ height: 40px;
+ object-fit: contain;
+ transform: translateY(3px);
+}
+.pricing p{
+ color: var(--clr-blue950);
+ font-weight: var(--fw-900);
+ font-size: 14px;
+}
+.pricing p,
+.pricing .price {
+  margin: 0;
+  line-height: 1.2;
+}
+.price{
+ color: var(--clr-gray600) ;
+}
+.plan.flex{
+ justify-content: space-between;
+}
+.plan a{
+ margin-left: 10px;
+ font-weight: var(--fw-700);
+ color: var(--clr-blue700);
+}
 
 
 
