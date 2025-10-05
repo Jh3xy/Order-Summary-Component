@@ -25,6 +25,10 @@ html{
 body{
  font-family: var(--ff-primary);
  background-color: var(--clr-blue100);
+ background-image: url(/images/pattern-background-mobile.svg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
  color: var(--clr-blue950);
  min-height: 100vh;
 }
@@ -133,4 +137,18 @@ p{
 .cancel-btn:hover{
  cursor: pointer;
 }
+
+/* Media Queriy */
+@media (min-width: 768px) {
+ body {
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+ }
+}
+
+
+
+
 
